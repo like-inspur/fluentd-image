@@ -4,7 +4,3 @@ RUN gem install fluent-plugin-record-modifier fluent-plugin-rewrite-tag-filter s
 RUN gem install ruby-kafka --version 0.6.7 && gem install fluent-plugin-kafka --version 0.7.9
 ENV SERVICES=""
 COPY run.sh /run.sh
-
-
-
-
